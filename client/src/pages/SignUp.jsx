@@ -25,7 +25,6 @@ export default function SignUp() {
       });
       const data = await res.json();
       setLoading(false);
-
       if (data.success === false) {
         setError(true);
         return;
