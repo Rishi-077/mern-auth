@@ -8,7 +8,7 @@ import path from "path";
 
 dotenv.config();
 
-const _dirname = path.resolve();
+const __dirname = path.resolve();
 
 const app = express();
 const port = 3000;
